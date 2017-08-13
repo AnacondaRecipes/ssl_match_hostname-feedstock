@@ -29,6 +29,13 @@ about:
   license:  PSF 2
   license_file: backports/ssl_match_hostname/LICENSE.txt
   summary: 'The ssl.match_hostname() function from Python 3.5'
+  description: |
+    The Secure Sockets Layer is only actually secure if you check the hostname
+    in the certificate returned by the server to which you are connecting,
+    and verify that it matches to hostname that you are trying to reach.
+  dev_url: http://bitbucket.org/brandon/backports.ssl_match_hostname
+  doc_url: https://pypi.python.org/pypi/backports.ssl_match_hostname
+  doc_source_url: https://bitbucket.org/brandon/backports.ssl_match_hostname/src/default/backports/ssl_match_hostname/README.txt
 
 extra:
   recipe-maintainers:
